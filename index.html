@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+ <h1>Ayelen de Virgiliis</h1> 
+ <h2>Mi pagina Web</h2>
+    </header>
+   <main>
+         <section class="quien-soy"> 
+      <h2>Quien Soy? </h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Vero eius aperiam odio iure repellendus quisquam! Blanditiis,
+              sequi vero ut recusandae nam iure minima reprehenderit 
+              architecto? Veritatis, eos. Qui, natus corporis!
+        </p>
+        </section>
+
+         <section class="mis-tecnologias-favoritas"> 
+    <h2>Mis Tecnologias Favoritos</h2>
+    
+ <div class="list"> 
+    <div> 
+         <h3>HTML</h3>
+         <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-5-icon-svg-download-png-1175208.png" alt="HTML Logo"/>
+    </div>
+
+    <div> 
+         <h3>CSS</h3>
+         <img src="https://cdn.iconscout.com/icon/free/png-256/free-css3-icon-svg-download-png-1175237.png" alt="CSS Logo"/>
+    </div>
+
+    <div>
+         <h3>JavaScript</h3>
+         <img src="https://images.seeklogo.com/logo-png/33/2/javascript-logo-png_seeklogo-330541.png" alt="JavaScript logo"/>
+     </div>
+ </div> 
+         </section>
+
+
+         <section class="mis-actividades-favoritas">
+        <h2>Mis Acividades Favoritas</h2>
+<form class="actividades-form" id="activityForm">
+    <div class="input-group">
+        <label>Titulo</label>
+        <input id="activityTitle" type="text"/>
+    </div>
+    <div class="input-group">
+        <label>Descripcion</label>
+        <textarea id="activityDesciption"></textarea>
+    </div>
+    <div class="input-group">
+        <label>URL imagen</label>
+        <input id="activityImgUrl" type="url"/>
+    </div>
+    <button type="submit">Agregar actividad</button>
+</form>
+<div class="contenedor-de-actividades" id="actividadesContenedor"> 
+
+</div>
+         </section>
+       
+   </main>
+   <script src="./scripts/index.js"></script>
+</body>
+</html>

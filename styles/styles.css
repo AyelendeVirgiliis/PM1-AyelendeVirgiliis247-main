@@ -1,0 +1,172 @@
+
+header {
+    background: #d0c9c186;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 5px;
+}
+header > h1{
+    font-size: 40px;
+    color: #222222;
+}
+
+main{
+    background:#ededf686;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px ;
+    gap: 30px;
+}
+
+.quien-soy,
+.mis-tecnologias-favoritas,
+.mis-actividades-favoritas{
+    width: 70%;
+    background:#fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    text-align: center;
+}
+
+.quien-soy > h2{
+    color: #000000;
+     font-size: 20px;
+     font-weight: bold;
+    margin-bottom: 9px;
+}
+.quien-soy > p{
+    color:#222222
+}
+
+
+.mis-tecnologias-favoritas > h2{
+    color: #000000;
+     font-size: 20px;
+     font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.mis-actividades-favoritas > h2{
+    color: #000000;
+     font-size: 20px;
+     font-weight: bold;
+    margin-bottom: 9px;
+}
+.list {
+    display: flex;
+    padding: 20px 40px;
+    gap: 100px;
+}
+
+.list > div{
+    width: 25%;
+     background: #d4d0cc86;
+    padding: 10px;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.list > div > h3{
+   color: #000000;
+   font-weight: 800;
+   font-size: 15px;
+   margin-top: auto;
+}
+.list > div:hover{
+    opacity: 0.8;
+}
+.list > img{
+    width: 100%;
+    display: block;
+}
+
+.actividad-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #000000;
+   font-weight: 400;
+    margin-bottom: 12px;
+    
+}
+.input-label{
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 5px;
+   
+} 
+
+.input-group > input, 
+.input-group > textarea{
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    outline: 0;
+    padding: 7px;
+}
+.input-group > textarea{
+    resize: none;
+}
+
+.actividades-form > button{
+     background: rgb(240, 229, 80);
+     color: #1a1919;
+    font-weight: 500;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.2s;
+}
+
+.actividades-form > button:hover{
+    opacity: 0.9;
+}
+
+.contenedor-de-actividades{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.contenedor-tarj {
+     background: #d4d0cc86;
+       border-radius: 5px;
+       padding: 20px;
+}
+.contenedor-tarj > h3 {
+    font-size: 20px;
+    font-weight: bold;
+     color: #1a1919;
+    
+}
+.contenedor-tarj > p {
+     color: #272626;
+     margin: 4px 0px;
+    
+}
+.contenedor-tarj :hover{
+    opacity: 0.9;
+}
+.contenedor-tarj > button {
+    background: rgb(240, 229, 80);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
