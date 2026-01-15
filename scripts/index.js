@@ -78,15 +78,15 @@ function addToDOM() {
 event.preventDefault();
 
   const activityTitle = document.getElementById("activityTitle").value;
-  const activityDesciption = document.getElementById("activityDesciption").value;
+  const activityDescription = document.getElementById("activityDescription").value;
   const activityImgUrl = document.getElementById("activityImgUrl").value;
 
-  console.log(activityDesciption);
+  console.log(activityDescription);
   
-  if (!activityTitle || !activityDesciption || !activityImgUrl){
+  if (!activityTitle || !activityDescription || !activityImgUrl){
     return alert("Hay datos incompletos");
   }
-  repository.createActivity(activityTitle, activityDesciption, activityImgUrl);
+  repository.createActivity(activityTitle, activityDescription, activityImgUrl);
 
   addToDOM();
 
